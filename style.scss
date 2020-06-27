@@ -7,15 +7,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 30%;
+    width: 50px;
     height: 100vh;
 
     // .popup__logo
     &__logo {
-        display: flex;
+        display: inline-flex;
+        justify-content: center;
         align-items: center;
-        margin: 0 3.5rem auto;
-        padding-top: 2.25rem;
     }
 
     // .popup__img
@@ -23,163 +22,163 @@
     &__img {
         /* Style for "phone-2" */
         width: auto;
-        height: 5rem;
+        height: 130px;
     }
 
     // .popup__title
 
-    &__title {
-        /* Style for "оБРАТНАЯ С" */
-        margin: 15px 0px 14px 23px;
-        /* Style for "оБРАТНАЯ С" */
-        color: #ffffff;
-        font-family: Montserrat;
-        font-size: 2.25rem;
-        font-weight: 700;
-        line-height: 2.25rem;
-        text-transform: uppercase;
-    }
+    //    &__title {
+    //        /* Style for "оБРАТНАЯ С" */
+    //        margin: 15px 0px 14px 23px;
+    //        /* Style for "оБРАТНАЯ С" */
+    //        color: #ffffff;
+    //        font-family: Montserrat;
+    //        font-size: 2.25rem;
+    //        font-weight: 700;
+    //        line-height: 2.25rem;
+    //        text-transform: uppercase;
+    //    }
 
-    // .popup__text
+    //    // .popup__text
 
-    &__text {
-        /* Style for "Оставьте В" */
-        margin: 2rem 2.5rem auto;
-        text-align: center;
-        color: #ffffff;
-        font-family: Montserrat;
-        font-size: 1.15rem;
-        font-weight: 400;
-        line-height: 1.85rem;
-    }
+    //    &__text {
+    //        /* Style for "Оставьте В" */
+    //        margin: 2rem 2.5rem auto;
+    //        text-align: center;
+    //        color: #ffffff;
+    //        font-family: Montserrat;
+    //        font-size: 1.15rem;
+    //        font-weight: 400;
+    //        line-height: 1.85rem;
+    //    }
 
-    // .popup__form
+    //    // .popup__form
 
-    &__form {
-        margin-top: 0.5rem;
-        display: flex;
-        flex-direction: column;
-    }
+    //    &__form {
+    //        margin-top: 0.5rem;
+    //        display: flex;
+    //        flex-direction: column;
+    //    }
 
-    // .popup__label
+    //    // .popup__label
 
-    &__label {
-        /* Style for "Ваше имя:" */
-        width: 80%;
-        margin: 1.5rem 2.5rem;
-        height: 1.1rem;
-        color: #ffffff;
-        font-family: "Montserrat - Semi Bold";
-        font-size: 1.5rem;
-        font-weight: 600;
-        line-height: 1.7rem;
-        /* Text style for "Ваше имя:" */
-        letter-spacing: 1.13px;
-        margin-bottom: 1.2rem;
+    //    &__label {
+    //        /* Style for "Ваше имя:" */
+    //        width: 80%;
+    //        margin: 1.5rem 2.5rem;
+    //        height: 1.1rem;
+    //        color: #ffffff;
+    //        font-family: "Montserrat - Semi Bold";
+    //        font-size: 1.5rem;
+    //        font-weight: 600;
+    //        line-height: 1.7rem;
+    //        /* Text style for "Ваше имя:" */
+    //        letter-spacing: 1.13px;
+    //        margin-bottom: 1.2rem;
 
-        // .popup__label_small
+    //        // .popup__label_small
 
-        &_small {
-            /* Style for "Я согласен" */
-            margin-left: 10px;
-            width: 95%;
-            height: 0.8rem;
-            color: #ffffff;
-            font-family: Montserrat;
-            font-size: 0.7rem;
-            font-weight: 300;
-            line-height: 1.15rem;
-        }
-    }
+    //        &_small {
+    //            /* Style for "Я согласен" */
+    //            margin-left: 10px;
+    //            width: 95%;
+    //            height: 0.8rem;
+    //            color: #ffffff;
+    //            font-family: Montserrat;
+    //            font-size: 0.7rem;
+    //            font-weight: 300;
+    //            line-height: 1.15rem;
+    //        }
+    //    }
 
-    &__input {
-        width: 80%;
-        margin: auto 2.5rem;
-        background-color: rgba(255, 255, 255, 0);
-        border: none;
-        opacity: 0.8;
-        color: #ffffff;
-        font-family: Montserrat;
-        font-size: 1.3rem;
-        font-weight: 400;
-        line-height: 1.5rem;
+    //    &__input {
+    //        width: 80%;
+    //        margin: auto 2.5rem;
+    //        background-color: rgba(255, 255, 255, 0);
+    //        border: none;
+    //        opacity: 0.8;
+    //        color: #ffffff;
+    //        font-family: Montserrat;
+    //        font-size: 1.3rem;
+    //        font-weight: 400;
+    //        line-height: 1.5rem;
 
-        ::placeholder {
-            /* Style for "Агалакис" */
-            opacity: 0.5;
-            color: #ffffff;
-            font-family: Montserrat;
-            font-size: 1.3rem;
-            font-weight: 400;
-            line-height: 1.5rem;
-            letter-spacing: 1.04px;
-        }
+    //        ::placeholder {
+    //            /* Style for "Агалакис" */
+    //            opacity: 0.5;
+    //            color: #ffffff;
+    //            font-family: Montserrat;
+    //            font-size: 1.3rem;
+    //            font-weight: 400;
+    //            line-height: 1.5rem;
+    //            letter-spacing: 1.04px;
+    //        }
 
-        //border-bottom: 2px solid #f4f4f4;
-        height: 1.9rem;
-        width: 80%;
-    }
+    //        //border-bottom: 2px solid #f4f4f4;
+    //        height: 1.9rem;
+    //        width: 80%;
+    //    }
 
-    &__checkbox {
-        margin: 0.25rem 2.5rem;
-        width: 80%;
-        display: flex;
-        align-items: center;
-    }
+    //    &__checkbox {
+    //        margin: 0.25rem 2.5rem;
+    //        width: 80%;
+    //        display: flex;
+    //        align-items: center;
+    //    }
 
-    &__line {
-        /* Style for "Shape 1" */
-        /* Style for "Shape 1" */
-        width: 80%;
-        height: 1px;
-        background-color: #f4f4f4;
-        opacity: 0.5;
-    }
+    //    &__line {
+    //        /* Style for "Shape 1" */
+    //        /* Style for "Shape 1" */
+    //        width: 80%;
+    //        height: 1px;
+    //        background-color: #f4f4f4;
+    //        opacity: 0.5;
+    //    }
 
-    // .popup__btn
+    //    // .popup__btn
 
-    &__btn {
-        margin: 20px auto;
-        width: 15rem;
-        height: 3rem;
-        border: 0.1px solid #fc7f04;
-        box-shadow: 2px 2px 15px 2px rgba(90, 84, 84, 0.81);
-        border-radius: 1.88rem;
-        background-color: #fc7f04;
-        /* Style for "ОТПРАВИТЬ" */
-        color: #ffffff;
-        font-family: Montserrat;
-        font-size: 1.2rem;
-        font-weight: 400;
-        line-height: 1.5rem;
-        text-transform: uppercase;
-        letter-spacing: 1.2px;
-    }
-}
+    //    &__btn {
+    //        margin: 20px auto;
+    //        width: 15rem;
+    //        height: 3rem;
+    //        border: 0.1px solid #fc7f04;
+    //        box-shadow: 2px 2px 15px 2px rgba(90, 84, 84, 0.81);
+    //        border-radius: 1.88rem;
+    //        background-color: #fc7f04;
+    //        /* Style for "ОТПРАВИТЬ" */
+    //        color: #ffffff;
+    //        font-family: Montserrat;
+    //        font-size: 1.2rem;
+    //        font-weight: 400;
+    //        line-height: 1.5rem;
+    //        text-transform: uppercase;
+    //        letter-spacing: 1.2px;
+    //    }
+    //}
 
-#checkbox+label+p.popup__label_small {
-    display: inline;
-}
+    //#checkbox+label+p.popup__label_small {
+    //    display: inline;
+    //}
 
-#checkbox {
-    display: none;
-}
+    //#checkbox {
+    //    display: none;
+    //}
 
-#checkbox+label {
-    display: block;
-    width: 0.95rem;
-    height: 0.95rem;
-    background: rgba(255, 255, 255, 0);
-    border: 1px solid rgb(255, 255, 255);
-    text-align: center;
-}
+    //#checkbox+label {
+    //    display: block;
+    //    width: 0.95rem;
+    //    height: 0.95rem;
+    //    background: rgba(255, 255, 255, 0);
+    //    border: 1px solid rgb(255, 255, 255);
+    //    text-align: center;
+    //}
 
-#checkbox:checked+label {
-    border: 1px solid #ffffff;
-}
+    //#checkbox:checked+label {
+    //    border: 1px solid #ffffff;
+    //}
 
-#checkbox:checked+label:before {
-    content: "✔";
-    font-size: 1.1rem;
-    color: rgb(255, 255, 255);
-}
+    //#checkbox:checked+label:before {
+    //    content: "✔";
+    //    font-size: 1.1rem;
+    //    color: rgb(255, 255, 255);
+    //}
