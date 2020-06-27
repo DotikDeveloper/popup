@@ -92,22 +92,23 @@
         margin-top: 25px;
         display: flex;
         flex-direction: column;
+        width: 470px;
+        text-align: left;
+        justify-content: center;
     }
 
     // .popup__label
 
     &__label {
         /* Style for "Ваше имя:" */
-        margin: 1.5rem 2.5rem;
-        height: 1.1rem;
+        height: 22px;
         color: #ffffff;
         font-family: "Montserrat";
-        font-size: 1.5rem;
+        font-size: 25px;
         font-weight: 600;
-        line-height: 1.7rem;
-        /* Text style for "Ваше имя:" */
+        line-height: 28px;
         letter-spacing: 1.13px;
-        margin-bottom: 1.2rem;
+        margin-bottom: 28px;
         text-align: left;
 
         // .popup__label_small
