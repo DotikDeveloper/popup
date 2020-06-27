@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="popup">
+        <div class="popup__logo">
+            <img class="popup__img" src="http://insol-gk.com/wp-content/uploads/2020/06/logo.png" alt="logo">
+            <h1 class="popup__title">ОБРАТНАЯ СВЯЗЬ</h1>
+        </div>
+        <p class="popup__text">Оставьте Ваши контактные данные
+            и наш специалист перезвонит Вам
+            в ближайшее время</p>
+        <form class="popup__form" action="/#wpcf7-f91-p92-o1" method="post" novalidate="novalidate">
+            <label class="popup__label" for="name">Ваше имя:</label>
+            <input class="popup__input" type="text" name="your-name" id="name" placeholder="Петр" required="">
+            <hr class="popup__line">
+            <label class="popup__label" for="tel">Ваш телефон:</label>
+            <input class="popup__input" type="tel" name="tel-962" id="tel" placeholder="+7 (999) 077-11-33" required="">
+            <hr class="popup__line">
+            <label class="popup__label" for="email">E-mail:</label>
+            <input class="popup__input" type="email" name="your-email" id="email" placeholder="urname@email.com"
+                required="">
+            <hr class="popup__line">
+            <div class="popup__checkbox">
+                <input type="checkbox" id="checkbox" required="" />
+                <label for="checkbox">
+                </label>
+                <p class="popup__label_small">Я согласен на персональную обработку моих
+                    данных</p>
+            </div>
+            <button type="submit" class="popup__btn">ОТПРАВИТЬ</button>
+            <div class="wpcf7-response-output wpcf7-display-none"></div>
+        </form>
+
+    </div>
+</body>
+
+</html>
