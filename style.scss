@@ -9,10 +9,11 @@
     background-size: cover;
     width: 550px;
     height: 100vh;
+    padding: 50px;
 
     // .popup__logo
     &__logo {
-        display: inline-flex;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
@@ -22,7 +23,7 @@
     &__img {
         /* Style for "phone-2" */
         width: auto;
-        height: 130px;
+        height: 105px;
     }
 
     // .popup__title
@@ -181,4 +182,4 @@
     //    content: "✔";
     //    font-size: 1.1rem;
     //    color: rgb(255, 255, 255);
-    //}
+}
