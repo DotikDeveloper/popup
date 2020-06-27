@@ -9,13 +9,17 @@
     background-size: cover;
     width: 550px;
     height: 100vh;
-    padding: 50px;
+    padding: 85px 45px 68px 45px;
+    text-align: center;
+
+
 
     // .popup__logo
     &__logo {
-        display: flex;
-        justify-content: center;
+        display: inline-flex;
+        justify-content: space-between;
         align-items: center;
+        width: 450px;
     }
 
     // .popup__img
@@ -23,22 +27,25 @@
     &__img {
         /* Style for "phone-2" */
         width: auto;
-        height: 105px;
+        height: 110px;
     }
 
     // .popup__title
 
-    //    &__title {
-    //        /* Style for "оБРАТНАЯ С" */
-    //        margin: 15px 0px 14px 23px;
-    //        /* Style for "оБРАТНАЯ С" */
-    //        color: #ffffff;
-    //        font-family: Montserrat;
-    //        font-size: 2.25rem;
-    //        font-weight: 700;
-    //        line-height: 2.25rem;
-    //        text-transform: uppercase;
-    //    }
+    &__title {
+        /* Style for "оБРАТНАЯ С" */
+        //margin: 15px 0px 14px 23px;
+        /* Style for "оБРАТНАЯ С" */
+        color: #ffffff;
+        font-family: Montserrat;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 50px;
+        text-transform: uppercase;
+        text-align: left;
+        padding-left: 22px;
+
+    }
 
     //    // .popup__text
 
