@@ -55,12 +55,14 @@
         padding: 30px 0px;
         flex-direction: column;
         justify-content: space-evenly;
+        text-align: center;
     }
 
     // .popup__logo
     &__logo {
-        display: flex;
-        align-items: center;
+        display: inline-flex;
+        align-items: center;        
+        
     }
 
     // .popup__img
@@ -68,6 +70,7 @@
         /* Style for "phone-2" */
         width: auto;
         height: 115px;
+        margin-left: 25px;        
     }
 
     // .popup__title
@@ -75,14 +78,12 @@
     &__title {
         color: #ffffff;
         font-family: "Montserrat";
-        font-size: 60px;
+        font-size: 48px;
         font-weight: 700;
         line-height: 50px;
         text-transform: uppercase;
         text-align: left;
-        padding-left: 25px;
-
-
+        margin-left: 25px;   
     }
 
     // .popup__text
@@ -90,14 +91,14 @@
     &__text {
         /* Style for "Оставьте В" */
         margin: 0;
-        padding: 0 20px;
+        padding: 20px 25px;
         text-align: center;
         color: #ffffff;
         font-family: "Montserrat";
         font-size: 22px;
         font-weight: 400;
         line-height: 22px;
-        letter-spacing: 1.13px;
+        letter-spacing: 1.2px;
     }
 
     // .popup__form
@@ -107,8 +108,7 @@
         display: flex;
         flex-direction: column;
         text-align: left;
-        justify-content: center;
-        //align-items: center;
+        justify-content: center;        
     }
 
     // .popup__label
@@ -122,10 +122,8 @@
         font-weight: 600;
         line-height: 28px;
         letter-spacing: 1.13px;
-        background-color: rgb(102, 44, 44);
-        //margin-bottom: 28px;
-        //text-align: left;
-        //width: 100%;
+        margin-bottom: 17px;
+
 
         // .popup__label_small
 
@@ -141,71 +139,71 @@
         }
     }
 
-    //&__input {
-    //    //width: 80%;
-    //    //margin: auto 2.5rem;
-    //    background-color: rgba(255, 255, 255, 0);
-    //    border: none !important;
-    //    opacity: 0.8;
-    //    color: #ffffff;
-    //    font-family: "Montserrat";
-    //    font-size: 22px;
-    //    font-weight: 400;
-    //    line-height: 24px;
+    &__input {
+        //width: 80%;
+        //margin: auto 2.5rem;
+        background-color: rgb(255, 255, 255);
+        border: none !important;
+        opacity: 0.8;
+        color: #ffffff;
+        font-family: "Montserrat";
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 24px;
 
-    //    ::placeholder {
-    //        /* Style for "Агалакис" */
-    //        opacity: 0.5;
-    //        color: #ffffff;
-    //        font-family: "Montserrat";
-    //        font-size: 22px;
-    //        font-weight: 400;
-    //        line-height: 24px;
-    //        letter-spacing: 1.04px;
-    //    }
+        ::placeholder {
+            /* Style for "Агалакис" */
+            opacity: 0.5;
+            color: #ffffff;
+            font-family: "Montserrat";
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 1.04px;
+        }
 
-    //    //border-bottom: 2px solid #f4f4f4;
-    //    height: 28px;
-    //    //width: 80%;
-    //}
+        //border-bottom: 2px solid #f4f4f4;
+        height: 28px;
+        //width: 80%;
+    }
 
-    //&__checkbox {
-    //    //margin: 15px 2.5rem;
-    //    //width: 80%;
-    //    display: flex;
-    //    align-items: center;
-    //}
+    &__checkbox {
+        //margin: 15px 2.5rem;
+        //width: 80%;
+        display: flex;
+        align-items: center;
+    }
 
-    //&__line {
-    //    //width: 80%;
-    //    height: 1px;
-    //    background-color: #f4f4f4;
-    //    opacity: 0.5;
-    //}
+    &__line {
+        //width: 80%;
+        height: 1px;
+        background-color: #f4f4f4;
+        opacity: 0.5;
+    }
 
-    //// .popup__btn
+    // .popup__btn
 
-    //&__btn {
-    //    //margin: 20px auto;
-    //    width: 325px;
-    //    //height: 3rem;
-    //    border: 0.1px solid #fc7f04;
-    //    box-shadow: 2px 2px 15px 2px rgba(90, 84, 84, 0.81);
-    //    border-radius: 20px;
-    //    background-color: #fc7f04;
-    //    /*Stylefor"ОТПРАВИТЬ"*/
-    //    color: #ffffff;
-    //    font-family: "Montserrat";
-    //    font-size: 22px;
-    //    font-weight: 400;
-    //    line-height: 24px;
-    //    text-transform: uppercase;
-    //    letter-spacing: 1.2px;
-    //    -webkit-border-radius: 20px;
-    //    -moz-border-radius: 20px;
-    //    -ms-border-radius: 20px;
-    //    -o-border-radius: 20px;
-    //}
+    &__btn {
+        //margin: 20px auto;
+        width: 325px;
+        //height: 3rem;
+        border: 0.1px solid #fc7f04;
+        box-shadow: 2px 2px 15px 2px rgba(90, 84, 84, 0.81);
+        border-radius: 20px;
+        background-color: #fc7f04;
+        /*Stylefor"ОТПРАВИТЬ"*/
+        color: #ffffff;
+        font-family: "Montserrat";
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
 }
 
 #checkbox+label+p.popup__label_small {
