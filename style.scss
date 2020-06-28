@@ -127,8 +127,7 @@
 
         // .popup__label_small
 
-        &_small {
-            //margin-left: 10px;
+        &_small {            
             width: 400px;
             height: 0.8rem;
             color: #ffffff;
@@ -139,12 +138,9 @@
         }
     }
 
-    &__input {
-        //width: 80%;
-        //margin: auto 2.5rem;
+    &__input {        
         background: none;
-        border: none !important;
-        //opacity: 0.8;
+        border: none !important;        
         color: #ffffff;
         font-family: "Montserrat";
         font-size: 22px;
@@ -152,8 +148,7 @@
         line-height: 24px;
 
         ::placeholder {
-            /* Style for "Агалакис" */
-            //opacity: 0.8;
+            /* Style for "Агалакис" */            
             color: #ffffff;
             font-family: "Montserrat";
             font-size: 22px;
@@ -161,11 +156,6 @@
             line-height: 24px;
             letter-spacing: 1.04px;
         }
-
-
-        //border-bottom: 2px solid #f4f4f4;
-        height: 28px;
-        //width: 80%;
     }
 
     &__checkbox {
